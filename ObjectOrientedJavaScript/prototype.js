@@ -10,3 +10,16 @@ let person1 = {
 }
 
 console.log(person1);
+console.log(person1.hasOwnProperty("gender"));
+
+// Constructor function
+
+function Person(_name, _age) {
+    this.name = _name;
+    this.age = _age;
+
+}
+
+let person2 = new Person("Steve", 30);
+
+console.log(person2);
